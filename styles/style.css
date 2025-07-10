@@ -231,3 +231,49 @@ main section {
     margin-bottom: 20px;
 }
 
+/* get in touch sec styles */
+
+.get_in_touch{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.get_in_touch_heading{
+    color: #000000;
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.touch_form_sec input[type="text"], .touch_form_sec input[type="email"]{
+    font-size: 16px;
+    height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 32px;
+    margin-bottom: 0px;
+    border: 1px solid #D6DDED;
+}
+
+.touch_form_sec textarea{
+    font-size: 16px;
+    height: 70px;
+    width: 225px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 32px;
+    margin-bottom: 0px;
+    border: 1px solid #D6DDED;
+}
+.form_title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.btn_primary_touch{
+    width: 295px;
+    margin-top: 10px;
+}
+
