@@ -236,7 +236,7 @@ main section {
 .get_in_touch{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 150px;
 }
 .get_in_touch_heading{
     color: #000000;
@@ -247,6 +247,7 @@ main section {
 .touch_form_sec input[type="text"], .touch_form_sec input[type="email"]{
     font-size: 16px;
     height: 35px;
+    width: 420px;
     color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     background-color: white;
@@ -258,7 +259,7 @@ main section {
 .touch_form_sec textarea{
     font-size: 16px;
     height: 70px;
-    width: 225px;
+    width: 420px;
     color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     background-color: white;
@@ -273,7 +274,49 @@ main section {
     margin-top: 20px;
 }
 .btn_primary_touch{
-    width: 295px;
+    width: 490px;
     margin-top: 10px;
 }
+
+/* footer styles */
+
+footer{
+    background-color: #F3F2FF;
+    text-align: center;
+    height: 400px;
+}
+.footer{
+    margin: 105px 400px;
+}
+.footer_title{
+    margin-bottom: 0px;
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer_description{
+    color: #8987A1;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.footer_link ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer_link ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer_link ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer_link ul li a:hover {
+    color: #4E47FF;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
 
