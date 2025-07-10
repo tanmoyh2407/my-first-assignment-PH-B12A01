@@ -1,3 +1,4 @@
+
 .raleway_normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -123,8 +124,6 @@ main section {
 .productive_data_parent{
     display: flex;
     justify-content: space-around;
-    /* margin-top: 0px; */
-
 }
 .data{
     color: #4E47FF;
@@ -156,7 +155,7 @@ main section {
 }
 
 .feedback{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #edecff2f;
     border: 1px solid rgba(242, 237, 237, 1);
     border-radius: 14px;
     padding: 24px 24px;
@@ -200,3 +199,35 @@ main section {
     font-weight: 400;
     font-size: 18px;
 }
+
+/* Ready to focus better styles */
+
+.focus {
+    text-align: center;
+}
+.focus_container {
+    background-color: #edecffaf;
+    padding: 70px 150px;
+    border-radius: 20px;
+}
+.focus_container img {
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.focus_heading{
+    background-color: #edecff2f;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.focus_description{
+    background-color: #edecff2f;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
