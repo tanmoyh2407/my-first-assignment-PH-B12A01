@@ -21,6 +21,14 @@
     border-radius: 10px;
     padding: 12px 36px;
 }
+.btn_primary:hover {
+    background-color: #8d89ffc6;
+    /* border: 2px solid #4E47FF; */
+    color: black;
+    transform: scale(1.04);
+    transition: all 0.3s ease;
+}
+
 
 .text_center{
     text-align: center;
@@ -61,4 +69,134 @@ nav{
     font-weight:bold;
     color: #252432;
     text-align: center;
+}
+
+/* main section styles START */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+/* action section styles */
+.action{
+    display:flex;
+    gap: 220px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.action_title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+.action_sub_title{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+/* productive users sec style */
+
+.productive_section{
+    width: 1140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.productive_sec_container{
+    padding: 50px 140px;
+}
+.productive_sec_title{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin: 0px;
+}
+.productive_data_parent{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 0px; */
+
+}
+.data{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    /* background-color: black; */
+    margin: 40px 0px 0px 0px;
+}
+.data_subtitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    text-align: center;
+    /* background-color: black; */
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* feedback section styles */
+
+.feedback_heading{
+    text-align: center;
+}
+
+.feedback_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feedback{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    padding: 24px 24px;
+
+}
+
+.user_name{
+    color: #1E1E1E;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.user_feedback{
+    color: #1E1E1E;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.reviewer_parent{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviewer_parent img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer_name{
+    margin-bottom: 0px;
+    color: #757575;
+    font-weight: 600;
+    font-size: 18px;
+}
+.reviewer_date{
+    margin-top: 0px;
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
 }
